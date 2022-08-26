@@ -1,5 +1,7 @@
 // JS
 
+// Continue in write reusable functions
+
 // BASIC DATA STRUCTURES
 
 // Review: 8, 10, 11, 17, 18, 19, 20.
