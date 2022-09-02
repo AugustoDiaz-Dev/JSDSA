@@ -1,6 +1,6 @@
-// JS
+// BASIC JS //
 
-// Golf Code 
+// Golf Code (Golf)
 
 const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 
@@ -51,7 +51,39 @@ function chainToSwitch(val) {
 
 chainToSwitch(7);
 
-// BASIC DATA STRUCTURES
+// Counting Cards (Blackjack)
+
+let count = 0;
+
+function cc(card) {
+  // Only change code below this line
+  switch (card) {
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count++;
+      break;
+    case 10:
+    case "J":
+    case "Q":
+    case "K":
+    case "A":
+      count--;
+      break;
+  }
+  if (count > 0) {
+    return count + " Bet";
+  } else {
+    return count + " Hold";
+  }
+  // Only change code above this line
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+// BASIC DATA STRUCTURES //
 
 // Review: 8, 10, 11, 17, 18, 19, 20.
 
